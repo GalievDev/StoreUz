@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0"
+            prefWidth="704.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1">
+   <Label layoutX="273.0" layoutY="14.0" text="Все товары">
+      <font>
+         <Font name="beer money" size="36.0"/>
+      </font>
+   </Label>
+   <AnchorPane layoutX="28.0" layoutY="103.0" prefHeight="297.0" prefWidth="207.0"
+               style="-fx-background-color: #ededed; -fx-border-radius: 5px; -fx-border-color: #4cc26b;">
+      <Label fx:id="product1" alignment="CENTER" layoutX="23.0" layoutY="139.0" prefHeight="40.0" prefWidth="159.0"
+             text="Товар1">
+         <font>
+            <Font name="beer money" size="29.0"/>
+         </font>
+      </Label>
+      <Label fx:id="price1" alignment="CENTER" layoutX="24.0" layoutY="186.0" prefHeight="35.0" prefWidth="159.0"
+             text="Цена1">
+         <font>
+            <Font name="beer money" size="25.0"/>
+         </font>
+      </Label>
+      <Button fx:id="sale1" layoutX="60.0" layoutY="234.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="88.0"
+              style="-fx-background-color: #fafafa; -fx-border-radius: 5px; -fx-border-color: #4cc26b;"
+              text="Купить">
+         <font>
+            <Font name="beer money" size="20.0"/>
+         </font>
+      </Button>
+      <ImageView fitHeight="138.0" fitWidth="207.0" pickOnBounds="true">
+         <Image url="@assets/images/product.png"/>
+      </ImageView>
+   </AnchorPane>
+   <AnchorPane layoutX="247.0" layoutY="103.0" prefHeight="297.0" prefWidth="207.0"
+               style="-fx-background-color: #ededed; -fx-border-radius: 5px; -fx-border-color: #4cc26b;">
+      <Label fx:id="product2" alignment="CENTER" layoutX="23.0" layoutY="139.0" prefHeight="40.0" prefWidth="159.0"
+             text="Товар1">
+         <font>
+            <Font name="beer money" size="29.0"/>
+         </font>
+      </Label>
+      <Label fx:id="price2" alignment="CENTER" layoutX="24.0" layoutY="186.0" prefHeight="35.0" prefWidth="159.0"
+             text="Цена1">
+         <font>
+            <Font name="beer money" size="25.0"/>
+         </font>
+      </Label>
+      <Button fx:id="sale2" layoutX="60.0" layoutY="234.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="88.0"
+              style="-fx-background-color: #fafafa; -fx-border-radius: 5px; -fx-border-color: #4cc26b;"
+              text="Купить">
+         <font>
+            <Font name="beer money" size="20.0"/>
+         </font>
+      </Button>
+      <ImageView fitHeight="139.0" fitWidth="207.0" layoutX="1.0" pickOnBounds="true">
+         <Image url="@assets/images/product.png"/>
+      </ImageView>
+   </AnchorPane>
+   <AnchorPane layoutX="464.0" layoutY="103.0" prefHeight="297.0" prefWidth="207.0"
+               style="-fx-background-color: #ededed; -fx-border-radius: 5px; -fx-border-color: #4cc26b;">
+      <Label fx:id="product3" alignment="CENTER" layoutX="24.0" layoutY="139.0" prefHeight="40.0" prefWidth="159.0"
+             text="Товар1">
+         <font>
+            <Font name="beer money" size="29.0"/>
+         </font>
+      </Label>
+      <Label fx:id="price3" alignment="CENTER" layoutX="24.0" layoutY="186.0" prefHeight="35.0" prefWidth="159.0"
+             text="Цена1">
+         <font>
+            <Font name="beer money" size="25.0"/>
+         </font>
+      </Label>
+      <Button fx:id="sale3" layoutX="60.0" layoutY="234.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="88.0"
+              style="-fx-background-color: #fafafa; -fx-border-radius: 5px; -fx-border-color: #4cc26b;"
+              text="Купить">
+         <font>
+            <Font name="beer money" size="20.0"/>
+         </font>
+      </Button>
+      <ImageView fitHeight="139.0" fitWidth="207.0" pickOnBounds="true">
+         <Image url="@assets/images/product.png"/>
+      </ImageView>
+   </AnchorPane>
+   <AnchorPane layoutX="28.0" layoutY="422.0" prefHeight="297.0" prefWidth="207.0"
+               style="-fx-background-color: #ededed; -fx-border-radius: 5px; -fx-border-color: #4cc26b;">
+      <Label fx:id="product4" alignment="CENTER" layoutX="23.0" layoutY="139.0" prefHeight="40.0" prefWidth="159.0"
+             text="Товар1">
+         <font>
+            <Font name="beer money" size="29.0"/>
+         </font>
+      </Label>
+      <Label fx:id="price4" alignment="CENTER" layoutX="24.0" layoutY="186.0" prefHeight="35.0" prefWidth="159.0"
+             text="Цена1">
+         <font>
+            <Font name="beer money" size="25.0"/>
+         </font>
+      </Label>
+      <Button fx:id="sale4" layoutX="60.0" layoutY="234.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="88.0"
+              style="-fx-background-color: #fafafa; -fx-border-radius: 5px; -fx-border-color: #4cc26b;"
+              text="Купить">
+         <font>
+            <Font name="beer money" size="20.0"/>
+         </font>
+      </Button>
+      <ImageView fitHeight="138.0" fitWidth="207.0" pickOnBounds="true">
+         <Image url="@assets/images/product.png"/>
+      </ImageView>
+   </AnchorPane>
+   <AnchorPane layoutX="248.0" layoutY="422.0" prefHeight="297.0" prefWidth="207.0"
+               style="-fx-background-color: #ededed; -fx-border-radius: 5px; -fx-border-color: #4cc26b;">
+      <Label fx:id="product5" alignment="CENTER" layoutX="23.0" layoutY="139.0" prefHeight="40.0" prefWidth="159.0"
+             text="Товар1">
+         <font>
+            <Font name="beer money" size="29.0"/>
+         </font>
+      </Label>
+      <Label fx:id="price5" alignment="CENTER" layoutX="24.0" layoutY="186.0" prefHeight="35.0" prefWidth="159.0"
+             text="Цена1">
+         <font>
+            <Font name="beer money" size="25.0"/>
+         </font>
+      </Label>
+      <Button fx:id="sale5" layoutX="60.0" layoutY="234.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="88.0"
+              style="-fx-background-color: #fafafa; -fx-border-radius: 5px; -fx-border-color: #4cc26b;"
+              text="Купить">
+         <font>
+            <Font name="beer money" size="20.0"/>
+         </font>
+      </Button>
+      <ImageView fitHeight="138.0" fitWidth="207.0" pickOnBounds="true">
+         <Image url="@assets/images/product.png"/>
+      </ImageView>
+   </AnchorPane>
+   <AnchorPane layoutX="464.0" layoutY="422.0" prefHeight="297.0" prefWidth="207.0"
+               style="-fx-background-color: #ededed; -fx-border-radius: 5px; -fx-border-color: #4cc26b;">
+      <Label fx:id="product6" alignment="CENTER" layoutX="23.0" layoutY="139.0" prefHeight="40.0" prefWidth="159.0"
+             text="Товар1">
+         <font>
+            <Font name="beer money" size="29.0"/>
+         </font>
+      </Label>
+      <Label fx:id="price6" alignment="CENTER" layoutX="24.0" layoutY="186.0" prefHeight="35.0" prefWidth="159.0"
+             text="Цена1">
+         <font>
+            <Font name="beer money" size="25.0"/>
+         </font>
+      </Label>
+      <Button fx:id="sale6" layoutX="60.0" layoutY="234.0" mnemonicParsing="false" prefHeight="35.0" prefWidth="88.0"
+              style="-fx-background-color: #fafafa; -fx-border-radius: 5px; -fx-border-color: #4cc26b;"
+              text="Купить">
+         <font>
+            <Font name="beer money" size="20.0"/>
+         </font>
+      </Button>
+      <ImageView fitHeight="138.0" fitWidth="207.0" pickOnBounds="true">
+         <Image url="@assets/images/product.png"/>
+      </ImageView>
+   </AnchorPane>
+</AnchorPane>

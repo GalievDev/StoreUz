@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="577.0" prefWidth="573.0" style="-fx-background-color: #4cc26b;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="net.app.app.controllers.RegController">
+    <children>
+        <AnchorPane layoutY="109.0" prefHeight="469.0" prefWidth="703.0" style="-fx-background-color: #fafafa;">
+            <children>
+                <Button layoutX="213.0" layoutY="340.0" mnemonicParsing="false" onAction="#onRegButton" prefHeight="62.0" prefWidth="278.0" style="-fx-background-color: #fafafa; -fx-border-radius: 5px; -fx-border-color: #4cc26b;" text="Зарегестрироваться">
+                    <font>
+                        <Font name="beer money" size="30.0" />
+                    </font>
+                </Button>
+                <TextField fx:id="login" alignment="CENTER" layoutX="271.0" layoutY="122.0" prefHeight="55.0" prefWidth="164.0" promptText="Логин" style="-fx-background-color: #fafafa; -fx-border-radius: 5px; -fx-border-color: #4cc26b;">
+                    <font>
+                        <Font size="24.0" />
+                    </font>
+                </TextField>
+                <PasswordField fx:id="password" alignment="CENTER" layoutX="483.0" layoutY="122.0" prefHeight="55.0" prefWidth="164.0" promptText="Пароль" style="-fx-background-color: #fafafa; -fx-border-radius: 5px; -fx-border-color: #4cc26b;">
+                    <font>
+                        <Font size="24.0" />
+                    </font>
+                </PasswordField>
+                <Label fx:id="warn" layoutX="270.0" layoutY="259.0" prefHeight="28.0" prefWidth="164.0" textFill="RED">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Label>
+                <Label layoutX="232.0" layoutY="32.0" prefHeight="55.0" prefWidth="241.0" text="Регистрация">
+                    <font>
+                        <Font name="beer money" size="48.0" />
+                    </font>
+                </Label>
+            <TextField fx:id="name" alignment="CENTER" layoutX="49.0" layoutY="122.0" prefHeight="55.0" prefWidth="164.0" promptText="Имя" style="-fx-background-color: #fafafa; -fx-border-radius: 5px; -fx-border-color: #4cc26b;">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="position" alignment="CENTER" layoutX="51.0" layoutY="204.0" prefHeight="55.0" prefWidth="164.0" promptText="Должность" style="-fx-background-color: #fafafa; -fx-border-radius: 5px; -fx-border-color: #4cc26b;">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="age" alignment="CENTER" layoutX="271.0" layoutY="207.0" prefHeight="55.0" prefWidth="164.0" promptText="Возвраст" style="-fx-background-color: #fafafa; -fx-border-radius: 5px; -fx-border-color: #4cc26b;">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="number" alignment="CENTER" layoutX="483.0" layoutY="207.0" prefHeight="55.0" prefWidth="164.0" promptText="Номер" style="-fx-background-color: #fafafa; -fx-border-radius: 5px; -fx-border-color: #4cc26b;">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </TextField>
+            </children>
+        </AnchorPane>
+        <Label layoutX="137.0" layoutY="6.0" text="Магазинчик.уз">
+            <font>
+                <Font name="beer money" size="72.0" />
+            </font>
+        </Label>
+    </children>
+</AnchorPane>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="577.0" prefWidth="573.0" style="-fx-background-color: #4cc26b;"
+            xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="net.app.app.controllers.MainController">
+   <AnchorPane layoutY="109.0" prefHeight="469.0" prefWidth="703.0" style="-fx-background-color: #fafafa;">
+      <Button fx:id="regButton" layoutX="169.0" layoutY="206.0" mnemonicParsing="false" onAction="#reg"
+              prefHeight="50.0" prefWidth="367.0"
+              style="-fx-background-color: #fafafa; -fx-border-radius: 5px; -fx-border-color: #4cc26b;"
+              text="Зарегестрироваться">
+         <font>
+            <Font name="beer money" size="36.0"/>
+         </font>
+      </Button>
+      <Button fx:id="logButton" layoutX="272.0" layoutY="106.0" mnemonicParsing="false" onAction="#log"
+              prefHeight="75.0" prefWidth="161.0"
+              style="-fx-background-color: #fafafa; -fx-border-radius: 5px; -fx-border-color: #4cc26b;" text="Войти">
+         <font>
+            <Font name="beer money" size="36.0"/>
+         </font>
+      </Button>
+   </AnchorPane>
+   <Label layoutX="137.0" layoutY="6.0" text="Магазинчик.уз">
+      <font>
+         <Font name="beer money" size="72.0"/>
+      </font>
+   </Label>
+</AnchorPane>

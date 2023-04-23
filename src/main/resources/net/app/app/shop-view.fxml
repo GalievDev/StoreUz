@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1000.0" style="-fx-background-color: #4cc26b;" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="net.app.app.controllers.ShopController">
+   <AnchorPane layoutY="109.0" prefHeight="800.0" prefWidth="1000.0" style="-fx-background-color: #fafafa;">
+      <AnchorPane>
+         <AnchorPane layoutY="1.0" prefHeight="800.0" prefWidth="164.0" style="-fx-background-color: #ededed;">
+            <effect>
+               <DropShadow height="0.0" radius="5.75" width="25.0" />
+            </effect>
+            <Button fx:id="personalArea" layoutX="-1.0" layoutY="25.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="296.0" style="-fx-background-color: ededed;" text="Личный кабинет">
+               <font>
+                  <Font name="beer money" size="27.0" />
+               </font>
+            </Button>
+            <Button fx:id="allShopProducts" layoutY="172.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="296.0" style="-fx-background-color: #ededed;" text="Все товары">
+               <font>
+                  <Font name="beer money" size="27.0" />
+               </font>
+            </Button>
+            <Button fx:id="electrical" layoutX="1.0" layoutY="262.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="294.0" style="-fx-background-color: ededed;" text="Электротехника">
+               <font>
+                  <Font name="beer money" size="27.0" />
+               </font>
+            </Button>
+            <Button fx:id="products" layoutY="363.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="296.0" style="-fx-background-color: #ededed;" text="Продукты">
+               <font>
+                  <Font name="beer money" size="27.0" />
+               </font>
+            </Button>
+            <Button fx:id="stationery" layoutX="-1.0" layoutY="471.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="296.0" style="-fx-background-color: ededed;" text="Канцтовары">
+               <font>
+                  <Font name="beer money" size="27.0" />
+               </font>
+            </Button>
+         </AnchorPane>
+         <AnchorPane fx:id="anchorPArea" layoutX="296.0" layoutY="-1.0" prefHeight="800.0" prefWidth="704.0">
+            <ImageView fitHeight="279.0" fitWidth="294.0" layoutX="28.0" layoutY="67.0" pickOnBounds="true">
+               <Image url="@assets/images/user.png" />
+            </ImageView>
+            <Label fx:id="name" layoutX="344.0" layoutY="168.0" prefHeight="53.0" prefWidth="200.0" text="Имя: ">
+               <font>
+                  <Font name="beer money" size="36.0" />
+               </font>
+            </Label>
+            <Label layoutX="59.0" layoutY="331.0" prefHeight="58.0" prefWidth="139.0" text="Баланс:">
+               <font>
+                  <Font name="beer money" size="32.0" />
+               </font>
+            </Label>
+            <Label fx:id="balance" layoutX="164.0" layoutY="337.0" prefHeight="47.0" prefWidth="338.0">
+               <font>
+                  <Font name="beer money" size="32.0" />
+               </font>
+            </Label>
+            <Label fx:id="login" layoutX="344.0" layoutY="221.0" prefHeight="53.0" prefWidth="200.0" text="Логин:">
+               <font>
+                  <Font name="beer money" size="36.0" />
+               </font>
+            </Label>
+            <Label fx:id="age" layoutX="344.0" layoutY="282.0" prefHeight="42.0" prefWidth="200.0" text="Возвраст:">
+               <font>
+                  <Font name="beer money" size="36.0" />
+               </font>
+            </Label>
+            <Button fx:id="topUpBalance" layoutX="59.0" layoutY="389.0" mnemonicParsing="false" prefHeight="59.0" prefWidth="178.0" style="-fx-background-color: fafafa; -fx-border-radius: 5px; -fx-border-color: #4cc26b;" text="Пополнить">
+               <font>
+                  <Font name="beer money" size="27.0" />
+               </font>
+            </Button>
+            <Label layoutX="209.0" layoutY="14.0" prefHeight="58.0" prefWidth="312.0" text="Личный кабинет">
+               <font>
+                  <Font name="beer money" size="40.0" />
+               </font>
+            </Label>
+            <Label layoutX="209.0" layoutY="474.0" prefHeight="53.0" prefWidth="302.0" text="История покупок">
+               <font>
+                  <Font name="beer money" size="36.0" />
+               </font>
+            </Label>
+            <DialogPane fx:id="topUpPane" headerText="Пополнение баланса" layoutX="196.0" layoutY="248.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="323.0" prefWidth="338.0" style="-fx-border-color: #4cc26b;">
+               <header>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="200.0" prefWidth="320.0">
+                     <TextField fx:id="topUpValue" layoutX="68.0" layoutY="109.0" prefHeight="58.0" prefWidth="200.0" promptText="Сумма" style="-fx-background-color: fafafa;">
+                        <font>
+                           <Font size="26.0" />
+                        </font>
+                     </TextField>
+                     <Label alignment="CENTER" layoutX="68.0" layoutY="62.0" prefHeight="38.0" prefWidth="200.0" text="Введите сумму:">
+                        <font>
+                           <Font size="18.0" />
+                        </font>
+                     </Label>
+                  </AnchorPane>
+               </header>
+               <content>
+                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="200.0" prefWidth="320.0">
+                     <Button fx:id="ready" layoutX="95.0" layoutY="15.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="146.0" style="-fx-background-color: fafafa; -fx-border-radius: 5px; -fx-border-color: #4cc26b;" text="Пополнить">
+                        <font>
+                           <Font size="20.0" />
+                        </font>
+                     </Button>
+                  </AnchorPane>
+               </content>
+               <effect>
+                  <DropShadow height="94.88" radius="38.7875" width="62.27" />
+               </effect>
+            </DialogPane>
+         </AnchorPane>
+         <VBox fx:id="anchorAllProducts" layoutX="306.0" layoutY="9.0" prefHeight="787.0" prefWidth="693.0" />
+      </AnchorPane>
+   </AnchorPane>
+   <Label layoutX="286.0" text="Магазинчик.уз">
+      <font>
+         <Font name="beer money" size="72.0" />
+      </font>
+   </Label>
+</AnchorPane>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="570.0" prefWidth="703.0" style="-fx-background-color: #4cc26b;"
+            xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="net.app.app.controllers.LogController">
+    <AnchorPane layoutY="109.0" prefHeight="570.0" prefWidth="703.0" style="-fx-background-color: #fafafa;">
+        <Button layoutX="290.0" layoutY="299.0" mnemonicParsing="false" onAction="#onLogButton" prefHeight="62.0"
+                prefWidth="124.0"
+                style="-fx-background-color: #fafafa; -fx-border-radius: 5px; -fx-border-color: #4cc26b;"
+                text="Войти">
+            <font>
+                <Font name="beer money" size="30.0"/>
+            </font>
+        </Button>
+        <TextField fx:id="login" layoutX="217.0" layoutY="116.0" prefHeight="55.0" prefWidth="270.0"
+                   promptText="Логин"
+                   style="-fx-background-color: #fafafa; -fx-border-radius: 5px; -fx-border-color: #4cc26b;">
+            <font>
+                <Font size="24.0"/>
+            </font>
+        </TextField>
+        <PasswordField fx:id="password" layoutX="217.0" layoutY="198.0" prefHeight="55.0" prefWidth="270.0"
+                       promptText="Пароль"
+                       style="-fx-background-color: #fafafa; -fx-border-radius: 5px; -fx-border-color: #4cc26b;">
+            <font>
+                <Font size="24.0"/>
+            </font>
+        </PasswordField>
+        <Label fx:id="welcome" alignment="CENTER" layoutX="216.0" layoutY="259.0" prefHeight="28.0"
+               prefWidth="270.0" textFill="RED">
+            <font>
+                <Font size="18.0"/>
+            </font>
+        </Label>
+        <Label layoutX="232.0" layoutY="32.0" prefHeight="55.0" prefWidth="241.0" text="Авторизация">
+            <font>
+                <Font name="beer money" size="48.0"/>
+            </font>
+        </Label>
+    </AnchorPane>
+    <Label layoutX="137.0" layoutY="6.0" text="Магазинчик.уз">
+        <font>
+            <Font name="beer money" size="72.0"/>
+        </font>
+    </Label>
+</AnchorPane>
